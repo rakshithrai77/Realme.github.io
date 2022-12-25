@@ -1,0 +1,52 @@
+@import './var';
+
+.shop
+{
+    width:10rem;
+}
+
+.header{
+    color:rgb(237, 50, 50);
+    font-size: 1.1rem;
+}
+nav{
+    background:$bg-color;
+}
+
+.col{
+ h3{
+    color:gray;
+    font-weight:'Martel';
+
+}
+p{
+    font-size: $font-size;
+    font-family: 'Source Serif Pro';
+}
+}
+
+.section_r
+{
+    border:$section-width solid rgb(233, 228, 228);
+    text-align: justify;
+    h1{
+        color:rgb(106, 99, 99);
+        font-family: 'Unbounded';
+    
+    }
+}    
+.row
+{
+    button{
+        color:white;
+    }
+}
+
+.navbar-toggler
+{
+    background-color: black;
+    .navbar-toggler-icon
+    {
+        background-color: rgb(169, 108, 29);
+    }
+}
